@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'user@website.com';
+$siteOwnersEmail = 'souzaemerson003@gmail.com';
 
 
 if($_POST) {
@@ -50,7 +50,7 @@ if($_POST) {
       $mail = mail($siteOwnersEmail, $subject, $message, $headers);
 
 		if ($mail) { echo "OK"; }
-      else { echo "Something went wrong. Please try again."; }
+      else { echo "Algo está errado. Tente novamente mais tarde."; }
 		
 	} # end if - no validation error
 

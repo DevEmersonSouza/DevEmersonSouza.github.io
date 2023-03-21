@@ -82,7 +82,7 @@ body {
  * -------------------------------------------------------------------
  */
 a, a:visited {
-	color: #000000;
+	color: white;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -1653,6 +1653,9 @@ header .logo a {
 	position: relative;
 	padding-top: 1.5rem;
 }
+
+
+
 #resume .timeline-ico {
 	height: 4.8rem;
 	width: 4.8rem;
