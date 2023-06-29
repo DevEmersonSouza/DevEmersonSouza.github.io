@@ -1481,7 +1481,28 @@ header .logo a {
 	}
 }
 
-
+/** 
+ * ===================================================================
+ * 10.1 services - (_layout.scss) 
+ *
+ * ------------------------------------------------------------------- 
+ */
+#services1{
+	background-color: #151515;
+	
+}
+#services1 h1{
+	color: white;
+}
+.fotography-row{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	gap: 10px;
+}
+.fotography-row img {
+	width:40rem;
+}
 /** 
  * ===================================================================
  * 11. about - (_layout.scss)
